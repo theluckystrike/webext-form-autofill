@@ -1,0 +1,38 @@
+{
+    "name": "webext-form-autofill",
+    "version": "0.1.0",
+    "description": "Form autofill utilities for Chrome extensions — detect forms, fill fields, save form data, templates, and smart field matching.",
+    "author": "Zovo <hello@zovo.one>",
+    "license": "MIT",
+    "keywords": [
+        "chrome-extension",
+        "form",
+        "autofill",
+        "form-fill",
+        "input",
+        "manifest-v3",
+        "browser-extension",
+        "password",
+        "autocomplete"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theluckystrike/webext-form-autofill.git"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.260",
+        "typescript": "^5.3.3"
+    }
+}
