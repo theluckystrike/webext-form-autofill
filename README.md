@@ -10,13 +10,13 @@ Form utilities for Chrome extensions. Detect forms, fill fields, extract data, a
 ## Installation
 
 ```bash
-npm install webext-form-autofill
+npm install @theluckystrike/webext-form-autofill
 ```
 
 ## Usage
 
 ```typescript
-import { FormDetector, FormFiller } from 'webext-form-autofill';
+import { FormDetector, FormFiller } from '@theluckystrike/webext-form-autofill';
 
 // Detect login forms on the page
 const loginForms = FormDetector.getLoginForms();
