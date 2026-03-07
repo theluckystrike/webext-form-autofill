@@ -1,3 +1,8 @@
+[![CI](https://github.com/theluckystrike/webext-form-autofill/actions/workflows/ci.yml/badge.svg)](https://github.com/theluckystrike/webext-form-autofill/actions)
+[![npm](https://img.shields.io/npm/v/@theluckystrike/webext-form-autofill)](https://www.npmjs.com/package/@theluckystrike/webext-form-autofill)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+
 # WEBEXT-FORM-AUTOFILL
 
 Form utilities for Chrome extensions. Detect forms, fill fields, extract data, and smart auto-fill by heuristics.
@@ -94,3 +99,6 @@ npm test
 This library is maintained by theluckystrike. For questions and support, please open an issue on GitHub.
 
 Learn more about Zovo at https://zovo.one
+
+---
+Built by [theluckystrike](https://github.com/theluckystrike) — [zovo.one](https://zovo.one)
