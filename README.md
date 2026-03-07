@@ -102,3 +102,7 @@ Learn more about Zovo at https://zovo.one
 
 ---
 Built by [theluckystrike](https://github.com/theluckystrike) — [zovo.one](https://zovo.one)
+
+## License
+
+MIT
